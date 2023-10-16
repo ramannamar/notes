@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "notes"
+version = "0.1.0"
+description = ""
+authors = ["raman162 <amazingbublik162@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.6"
+djoser = "^2.2.0"
+djangorestframework = "^3.14.0"
+prospector = "^1.10.2"
+environ = "^1.0"
+psycopg2-binary = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
